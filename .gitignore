@@ -3,4 +3,6 @@
 /Task2/bin/
 /Task2/obj/
 /Task3/MyBlazorWinFormsApp/
-/Task3/MyWinFormsApp/
+/Task3/MyWinFormsApp/obj/
+/Task3/MyWinFormsApp/bin/
+
