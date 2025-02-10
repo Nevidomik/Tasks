@@ -1,0 +1,14 @@
+{
+    "build": {
+      "content": [
+        {
+          "files": ["Models/**/*.cs", "Services/**/*.cs"]
+        }
+      ],
+      "globalMetadata": {
+        "_appTitle": "Inventory Management App",
+        "_appDescription": "Система для обліку товарів на складі"
+      }
+    }
+  }
+  
