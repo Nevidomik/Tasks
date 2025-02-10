@@ -75,7 +75,7 @@
             this.Controls.Add(this.panelOdd);
             this.Controls.Add(this.panelEven);
             this.Name = "Form1";
-            this.Text = "Супер крутий обробник чисел";
+            this.Text = "Обробник чисел";
             this.ResumeLayout(false);
 
             InitializePanelHeaders();
