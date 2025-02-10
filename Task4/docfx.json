@@ -1,14 +1,37 @@
 {
-    "build": {
-      "content": [
+  "metadata": [
+    {
+      "src": [
         {
-          "files": ["Models/**/*.cs", "Services/**/*.cs"]
+          "files": [
+            "Inventory.csproj"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**"
+          ]
         }
       ],
-      "globalMetadata": {
-        "_appTitle": "Inventory Management App",
-        "_appDescription": "Система для обліку товарів на складі"
-      }
+      "dest": "api"
     }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "*.md",
+          "api/**.yml",
+          "api/**.md"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadata": {
+      "_enableSearch": true,
+      "_enableNewTab": true
+    },
+    "template": [
+      "default"
+    ]
   }
-  
+}
